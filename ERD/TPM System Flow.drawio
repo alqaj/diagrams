@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T18:44:37.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yNrMYp_3-gYf-XvM-_Om" version="21.0.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-03-16T18:47:53.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8rSVtkusrQYAIPHUBsP3" version="21.0.6" type="github" pages="12">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -162,6 +162,58 @@
           <mxGeometry x="40" y="37.5" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="xggslws0BwvH2f-dhING-14" value="SAVE&lt;br&gt;machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="xggslws0BwvH2f-dhING-12">
+          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Create Spare Part" id="f0W0AnF8mh1AxeUTqhey">
+    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-0" />
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-1" parent="gGR2PaDtYJ7Uo9xwqpIj-0" />
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-2" value="Create Spare Part" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-1">
+          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-3" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2">
+          <mxGeometry y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-4" value="Add Spare Part" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-3">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-5" value="Input Machine, Spare Part No, Spare Part Name, Part Type, Price per Unit, Stock &amp;amp; Description" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-3">
+          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2" source="gGR2PaDtYJ7Uo9xwqpIj-4" target="gGR2PaDtYJ7Uo9xwqpIj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2" source="gGR2PaDtYJ7Uo9xwqpIj-9" target="gGR2PaDtYJ7Uo9xwqpIj-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-8" value="Web" style="swimlane;html=1;startSize=20;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2">
+          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-9" value="Show Spare Part Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-8">
+          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2" source="gGR2PaDtYJ7Uo9xwqpIj-13" target="gGR2PaDtYJ7Uo9xwqpIj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2" source="gGR2PaDtYJ7Uo9xwqpIj-5" target="gGR2PaDtYJ7Uo9xwqpIj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-12" value="API" style="swimlane;html=1;startSize=20;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2">
+          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-13" value="GET&lt;br&gt;machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-12">
+          <mxGeometry x="40" y="37.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="gGR2PaDtYJ7Uo9xwqpIj-14" value="SAVE&lt;br&gt;spare-part" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-12">
           <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
