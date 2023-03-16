@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T12:56:34.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="4fYjpfsNexd4uB1cC0x9" version="21.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-16T13:02:52.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="imOb4NB4nnsro8Pv6mvQ" version="21.0.2" type="github" pages="2">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -64,10 +64,70 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z-5ByKogDra4VPeNAV4-" name="Generate Planning">
-    <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5JyjnNICNdyO6vzPVobF-1" value="Fungsi Generate Planning" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="480" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-2" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-1">
+          <mxGeometry y="20" width="160" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-3" value="Login web TPM,&lt;br&gt;Masuk menu TPM Planning" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-2">
+          <mxGeometry x="20" y="65" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-4" value="Pilih bulan dan tahun, lalu generate" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-2">
+          <mxGeometry x="20" y="155" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="5JyjnNICNdyO6vzPVobF-1" source="5JyjnNICNdyO6vzPVobF-3" target="5JyjnNICNdyO6vzPVobF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="5JyjnNICNdyO6vzPVobF-1" source="5JyjnNICNdyO6vzPVobF-9" target="5JyjnNICNdyO6vzPVobF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="155" />
+              <mxPoint x="70" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="5JyjnNICNdyO6vzPVobF-1" source="5JyjnNICNdyO6vzPVobF-4" target="5JyjnNICNdyO6vzPVobF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-8" value="Web" style="swimlane;html=1;startSize=20;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-1">
+          <mxGeometry x="160" y="20" width="160" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-9" value="Muncul Pilihan Bulan,Tahun&lt;br&gt;&amp;nbsp;dan line" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-8">
+          <mxGeometry x="30" y="65" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-10" value="Tampilkan data TPM Planning" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-8">
+          <mxGeometry x="20" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-11" value="API" style="swimlane;html=1;startSize=20;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-1">
+          <mxGeometry x="320" y="20" width="160" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-12" value="Men-generate data dari table TPM, ItemCheck," style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-11">
+          <mxGeometry x="30" y="155" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="5JyjnNICNdyO6vzPVobF-11" source="5JyjnNICNdyO6vzPVobF-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.03030303030323" y="240.02272727272737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="5JyjnNICNdyO6vzPVobF-11" source="5JyjnNICNdyO6vzPVobF-16" target="5JyjnNICNdyO6vzPVobF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-16" value="Input ke table tpm_planning" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-11">
+          <mxGeometry x="30" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-18" value="Select data dari table tpm_planning" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="5JyjnNICNdyO6vzPVobF-11">
+          <mxGeometry x="33" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5JyjnNICNdyO6vzPVobF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5JyjnNICNdyO6vzPVobF-1" target="5JyjnNICNdyO6vzPVobF-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
