@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T04:29:40.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AqSApnLGhjppFexlU10U" version="21.0.7" type="github" pages="32">
+<mxfile host="app.diagrams.net" modified="2023-03-18T04:30:19.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G8NXIbx2uz_pvzBPWA1T" version="21.0.7" type="github" pages="32">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -233,6 +233,58 @@
         </mxCell>
         <mxCell id="8r3R_-3MEt8HqXPvSMVl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1j_Xd7aGl4cJ9cgThR6G-1" source="8r3R_-3MEt8HqXPvSMVl-0" target="8r3R_-3MEt8HqXPvSMVl-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Create Machine" id="u1MmtPLZNTfiBx1nmFpy">
+    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="xggslws0BwvH2f-dhING-0" />
+        <mxCell id="xggslws0BwvH2f-dhING-1" parent="xggslws0BwvH2f-dhING-0" />
+        <mxCell id="xggslws0BwvH2f-dhING-2" value="Create Machine" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-1" vertex="1">
+          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-3" value="User" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
+          <mxGeometry y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-4" value="Add Machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-3" vertex="1">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-5" value="Input Code, Name, PIC, Operation Number, Serial Number, Process Name, Release Year, Maker, Machine Type, Description, company, plant, Division, Department, Line, Cell" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-3" vertex="1">
+          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-4" target="xggslws0BwvH2f-dhING-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-9" target="xggslws0BwvH2f-dhING-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-8" value="Web" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
+          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-9" value="Show Machine Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-8" vertex="1">
+          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-13" target="xggslws0BwvH2f-dhING-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-5" target="xggslws0BwvH2f-dhING-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-12" value="API" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
+          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-13" value="GET&lt;br&gt;machine-type" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-12" vertex="1">
+          <mxGeometry x="40" y="37.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xggslws0BwvH2f-dhING-14" value="SAVE&lt;br&gt;machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-12" vertex="1">
+          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -498,58 +550,6 @@
         </mxCell>
         <mxCell id="0a1bmhRefIU7Z15FJDSd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="BzsVJ-XYSSjAh0O77_8J-2" source="Rt7_-m-gFniy54Oa_pOB-7" target="Rt7_-m-gFniy54Oa_pOB-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Create Machine" id="u1MmtPLZNTfiBx1nmFpy">
-    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="xggslws0BwvH2f-dhING-0" />
-        <mxCell id="xggslws0BwvH2f-dhING-1" parent="xggslws0BwvH2f-dhING-0" />
-        <mxCell id="xggslws0BwvH2f-dhING-2" value="Create Machine" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-1" vertex="1">
-          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-3" value="User" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
-          <mxGeometry y="20" width="160" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-4" value="Add Machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-3" vertex="1">
-          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-5" value="Input Code, Name, PIC, Operation Number, Serial Number, Process Name, Release Year, Maker, Machine Type, Description, company, plant, Division, Department, Line, Cell" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-3" vertex="1">
-          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-4" target="xggslws0BwvH2f-dhING-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-9" target="xggslws0BwvH2f-dhING-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="160" />
-              <mxPoint x="70" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-8" value="Web" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-9" value="Show Machine Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-8" vertex="1">
-          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-13" target="xggslws0BwvH2f-dhING-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="xggslws0BwvH2f-dhING-2" source="xggslws0BwvH2f-dhING-5" target="xggslws0BwvH2f-dhING-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-12" value="API" style="swimlane;html=1;startSize=20;" parent="xggslws0BwvH2f-dhING-2" vertex="1">
-          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-13" value="GET&lt;br&gt;machine-type" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-12" vertex="1">
-          <mxGeometry x="40" y="37.5" width="100" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="xggslws0BwvH2f-dhING-14" value="SAVE&lt;br&gt;machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="xggslws0BwvH2f-dhING-12" vertex="1">
-          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
