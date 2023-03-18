@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T04:50:48.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eJ_pCkdupuuUaMtVz9f9" version="21.0.7" type="github" pages="32">
+<mxfile host="app.diagrams.net" modified="2023-03-18T04:52:02.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="47bvjqqL6DFbcQjfFfeX" version="21.0.7" type="github" pages="32">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1571,6 +1571,9 @@
             <mxPoint x="370" y="448" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1UMFaWAHywDgvv847kmD-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="gGR2PaDtYJ7Uo9xwqpIj-2" source="fIAetTSUAHVJx35HIutn-1" target="gGR2PaDtYJ7Uo9xwqpIj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZwUR8rebSySKs37jJWWz-0" value="Access Spare Part&amp;nbsp;Menu" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="gGR2PaDtYJ7Uo9xwqpIj-1">
           <mxGeometry x="100" y="100" width="100" height="60" as="geometry" />
         </mxCell>
@@ -1595,15 +1598,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Create TPM Ledger" id="Hh3a2AdmcpfffD4otkfj">
-    <mxGraphModel dx="1222" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-0" />
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-1" parent="u7-yvvbfMHkaS16hP3Cu-0" />
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-2" value="Create TPM Ledger" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="u7-yvvbfMHkaS16hP3Cu-1" vertex="1">
-          <mxGeometry x="70" y="40" width="500" height="910" as="geometry" />
+          <mxGeometry x="70" y="40" width="500" height="730" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-3" value="User" style="swimlane;html=1;startSize=20;" parent="u7-yvvbfMHkaS16hP3Cu-2" vertex="1">
-          <mxGeometry y="20" width="160" height="890" as="geometry" />
+          <mxGeometry y="20" width="160" height="710" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-4" value="Add New TPM Ledger" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="u7-yvvbfMHkaS16hP3Cu-3" vertex="1">
           <mxGeometry x="30" y="205" width="100" height="60" as="geometry" />
@@ -1615,7 +1618,7 @@
           <mxGeometry x="30" y="425" width="100" height="190" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-9" value="Web" style="swimlane;html=1;startSize=20;" parent="u7-yvvbfMHkaS16hP3Cu-2" vertex="1">
-          <mxGeometry x="160" y="20" width="160" height="890" as="geometry" />
+          <mxGeometry x="160" y="20" width="160" height="710" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-10" value="Show Wizard Form&amp;nbsp;&lt;br&gt;1: Select Machine&lt;br&gt;&amp;amp; Machine List" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="u7-yvvbfMHkaS16hP3Cu-9" vertex="1">
           <mxGeometry x="30" y="280" width="100" height="60" as="geometry" />
@@ -1656,7 +1659,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-12" value="API" style="swimlane;html=1;startSize=20;" parent="u7-yvvbfMHkaS16hP3Cu-2" vertex="1">
-          <mxGeometry x="320" y="20" width="180" height="890" as="geometry" />
+          <mxGeometry x="320" y="20" width="180" height="710" as="geometry" />
         </mxCell>
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-14" value="SAVE&lt;br&gt;tpm_ledger&lt;br&gt;SAVE&amp;nbsp;&lt;br&gt;item_check&lt;br&gt;SAVE&lt;br&gt;item_check_jis" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="u7-yvvbfMHkaS16hP3Cu-12" vertex="1">
           <mxGeometry x="14.25" y="605" width="151.5" height="60" as="geometry" />
@@ -1664,36 +1667,21 @@
         <mxCell id="u7-yvvbfMHkaS16hP3Cu-15" value="GET &lt;br&gt;machine&lt;br&gt;GET&amp;nbsp;&lt;br&gt;method&lt;br&gt;GET&lt;br&gt;jis&lt;br&gt;GET&lt;br&gt;spare-part" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="u7-yvvbfMHkaS16hP3Cu-12" vertex="1">
           <mxGeometry x="40" y="190" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qphNvkGsmK4yiUOUAyTY-0" value="Duplicate?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-12">
-          <mxGeometry x="50" y="690" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qphNvkGsmK4yiUOUAyTY-1" value="Notify" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-12">
-          <mxGeometry x="-130" y="805" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qphNvkGsmK4yiUOUAyTY-2" value="SAVE&lt;br&gt;submachine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-12">
-          <mxGeometry x="40" y="805" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qphNvkGsmK4yiUOUAyTY-3" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-12" source="qphNvkGsmK4yiUOUAyTY-0" target="qphNvkGsmK4yiUOUAyTY-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qphNvkGsmK4yiUOUAyTY-4" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-12" source="qphNvkGsmK4yiUOUAyTY-0" target="qphNvkGsmK4yiUOUAyTY-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LEnvLzoRxTe97K7ERxse-0" value="Access Sub Machine&amp;nbsp;Menu" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
+        <mxCell id="LEnvLzoRxTe97K7ERxse-0" value="Access TPM Ledger Menu" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
           <mxGeometry x="100" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LEnvLzoRxTe97K7ERxse-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-1" source="LEnvLzoRxTe97K7ERxse-2">
+        <mxCell id="LEnvLzoRxTe97K7ERxse-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-1" source="LEnvLzoRxTe97K7ERxse-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="250" as="targetPoint" />
+            <mxPoint x="150" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LEnvLzoRxTe97K7ERxse-2" value="Show Sub Machine Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
+        <mxCell id="LEnvLzoRxTe97K7ERxse-2" value="Show TPM Ledger Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
           <mxGeometry x="260" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LEnvLzoRxTe97K7ERxse-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-1" source="LEnvLzoRxTe97K7ERxse-4" target="LEnvLzoRxTe97K7ERxse-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LEnvLzoRxTe97K7ERxse-4" value="GET&lt;br&gt;sub-machine" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
+        <mxCell id="LEnvLzoRxTe97K7ERxse-4" value="GET&lt;br&gt;tpm-ledger" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="u7-yvvbfMHkaS16hP3Cu-1">
           <mxGeometry x="430" y="160" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LEnvLzoRxTe97K7ERxse-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u7-yvvbfMHkaS16hP3Cu-1" source="LEnvLzoRxTe97K7ERxse-0" target="LEnvLzoRxTe97K7ERxse-4">
