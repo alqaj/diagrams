@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T03:15:49.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xnZc0h773Wc6vL64Xf4a" version="21.0.7" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-03-18T03:17:09.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_1CJKgXsR95RGYGzpS99" version="21.0.7" type="github" pages="22">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -378,6 +378,52 @@
           <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
         </mxCell>
         <mxCell id="ZZ-XQLB50DKP57oiaV_j-12" value="SAVE&lt;br&gt;company" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ZZ-XQLB50DKP57oiaV_j-11">
+          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Create Plant" id="p3FzkrdMZJDEpUhnQBia">
+    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-0" />
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-1" parent="Ru3_ljdkcJZc73GFKSpW-0" />
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-2" value="Create Company" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-1">
+          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-3" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-2">
+          <mxGeometry y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-4" value="Add Plant" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-3">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-5" value="Input Company, Code, Name, Phone, Address &amp;amp; Description" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-3">
+          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ru3_ljdkcJZc73GFKSpW-2" source="Ru3_ljdkcJZc73GFKSpW-4" target="Ru3_ljdkcJZc73GFKSpW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="Ru3_ljdkcJZc73GFKSpW-2" source="Ru3_ljdkcJZc73GFKSpW-9" target="Ru3_ljdkcJZc73GFKSpW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-8" value="Web" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-2">
+          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-9" value="Show Plant Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-8">
+          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ru3_ljdkcJZc73GFKSpW-2" source="Ru3_ljdkcJZc73GFKSpW-5" target="Ru3_ljdkcJZc73GFKSpW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-11" value="API" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-2">
+          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-12" value="SAVE&lt;br&gt;plant" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-11">
           <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
