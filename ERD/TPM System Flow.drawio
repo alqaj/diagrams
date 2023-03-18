@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T03:17:09.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_1CJKgXsR95RGYGzpS99" version="21.0.7" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2023-03-18T03:19:44.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SfOFSC0u4XVF18Cg09H3" version="21.0.7" type="github" pages="24">
   <diagram name="Login" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -388,7 +388,7 @@
       <root>
         <mxCell id="Ru3_ljdkcJZc73GFKSpW-0" />
         <mxCell id="Ru3_ljdkcJZc73GFKSpW-1" parent="Ru3_ljdkcJZc73GFKSpW-0" />
-        <mxCell id="Ru3_ljdkcJZc73GFKSpW-2" value="Create Company" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-1">
+        <mxCell id="Ru3_ljdkcJZc73GFKSpW-2" value="Create Plant" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-1">
           <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Ru3_ljdkcJZc73GFKSpW-3" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-2">
@@ -424,6 +424,98 @@
           <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Ru3_ljdkcJZc73GFKSpW-12" value="SAVE&lt;br&gt;plant" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="Ru3_ljdkcJZc73GFKSpW-11">
+          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Create Division" id="sF5hWzYq3MaLMJDr3NWm">
+    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="vcyur5evx_BqK2xbA09k-0" />
+        <mxCell id="vcyur5evx_BqK2xbA09k-1" parent="vcyur5evx_BqK2xbA09k-0" />
+        <mxCell id="vcyur5evx_BqK2xbA09k-2" value="Create Division" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vcyur5evx_BqK2xbA09k-1">
+          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-3" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="vcyur5evx_BqK2xbA09k-2">
+          <mxGeometry y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-4" value="Add Division" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vcyur5evx_BqK2xbA09k-3">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-5" value="Input Company, Plant, Code, Name, &amp;amp; Description" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vcyur5evx_BqK2xbA09k-3">
+          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vcyur5evx_BqK2xbA09k-2" source="vcyur5evx_BqK2xbA09k-4" target="vcyur5evx_BqK2xbA09k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="vcyur5evx_BqK2xbA09k-2" source="vcyur5evx_BqK2xbA09k-9" target="vcyur5evx_BqK2xbA09k-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-8" value="Web" style="swimlane;html=1;startSize=20;" vertex="1" parent="vcyur5evx_BqK2xbA09k-2">
+          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-9" value="Show Division Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vcyur5evx_BqK2xbA09k-8">
+          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vcyur5evx_BqK2xbA09k-2" source="vcyur5evx_BqK2xbA09k-5" target="vcyur5evx_BqK2xbA09k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-11" value="API" style="swimlane;html=1;startSize=20;" vertex="1" parent="vcyur5evx_BqK2xbA09k-2">
+          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vcyur5evx_BqK2xbA09k-12" value="SAVE&lt;br&gt;division" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="vcyur5evx_BqK2xbA09k-11">
+          <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Create Dept" id="ym-KtxNBoiJUpWLm7DNY">
+    <mxGraphModel dx="794" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--0" />
+        <mxCell id="OOXLqxpYtz4kbBfYru9--1" parent="OOXLqxpYtz4kbBfYru9--0" />
+        <mxCell id="OOXLqxpYtz4kbBfYru9--2" value="Create Dept" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--1">
+          <mxGeometry x="70" y="40" width="500" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--3" value="User" style="swimlane;html=1;startSize=20;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--2">
+          <mxGeometry y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--4" value="Add Dept" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--3">
+          <mxGeometry x="30" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--5" value="Input Company, Plant, Division, Code, Name, &amp;amp; Description" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--3">
+          <mxGeometry x="30" y="170" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OOXLqxpYtz4kbBfYru9--2" source="OOXLqxpYtz4kbBfYru9--4" target="OOXLqxpYtz4kbBfYru9--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="OOXLqxpYtz4kbBfYru9--2" source="OOXLqxpYtz4kbBfYru9--9" target="OOXLqxpYtz4kbBfYru9--5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="70" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--8" value="Web" style="swimlane;html=1;startSize=20;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--2">
+          <mxGeometry x="160" y="20" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--9" value="Show Dept Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--8">
+          <mxGeometry x="30" y="115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OOXLqxpYtz4kbBfYru9--2" source="OOXLqxpYtz4kbBfYru9--5" target="OOXLqxpYtz4kbBfYru9--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--11" value="API" style="swimlane;html=1;startSize=20;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--2">
+          <mxGeometry x="320" y="20" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OOXLqxpYtz4kbBfYru9--12" value="SAVE&lt;br&gt;dept" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="OOXLqxpYtz4kbBfYru9--11">
           <mxGeometry x="50" y="185" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
